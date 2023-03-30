@@ -1,0 +1,22 @@
+.location-detail-page {
+  text-align: center;
+
+  &__content {
+    padding: 50px 0;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  &__pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__show-more {
+    margin-top: 20px;
+  }
+}

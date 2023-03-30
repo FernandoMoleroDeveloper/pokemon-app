@@ -1,0 +1,20 @@
+.pokemon-locations {
+  &__title {}
+
+  &__list {}
+
+  &_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  &__area-name {
+    text-transform: capitalize;
+    text-align: left;
+    padding-right: 10px;
+  }
+
+  &__show-more {}
+}

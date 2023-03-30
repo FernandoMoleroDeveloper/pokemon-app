@@ -1,0 +1,25 @@
+.pokemon-evolution-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+  &__image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+    margin-right: 20px;
+  }
+
+  &__name {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__show-more btn {}
+}

@@ -1,0 +1,22 @@
+{
+  "general:show-more": "+ MÁS",
+  "general:more-info": "+ INFO",
+  "pokemons:weight": "PESO",
+  "pokemons:height": "ALTURA",
+  "home:pokedex": "POKEDEX",
+  "home:game": "JUEGO",
+  "footer:text": "Hazte con todos!",
+  "pokemon-detail:stats": "Datos",
+  "pokemon-detail:moves": "Ataques",
+  "pokemon-detail:games": "Juegos",
+  "pokemon-detail:evolutions": "Evoluciones",
+  "pokemon-detail:locations": "Localizaciones",
+  "pokemon-detail:hp": "HP",
+  "pokemon-detail:attack": "Ataque",
+  "pokemon-detail:defense": "Defensa",
+  "pokemon-detail:special-attack": "Ata. Esp",
+  "pokemon-detail:special-defense": "Def. Esp",
+  "pokemon-detail:speed": "Veloc.",
+  "game:play-again": "RESETEAR",
+  "game:solve": "RESOLVER"
+}

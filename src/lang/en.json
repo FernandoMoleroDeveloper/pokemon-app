@@ -1,0 +1,22 @@
+{
+  "general:show-more": "+ MORE",
+  "general:more-info": "+ INFO",
+  "pokemons:weight": "WEIGHT",
+  "pokemons:height": "HEIGHT",
+  "home:pokedex": "POKEDEX",
+  "home:game": "QUIZ GAME",
+  "footer:text": "GOTTA CATCH 'EM ALL!",
+  "pokemon-detail:stats": "Stats",
+  "pokemon-detail:moves": "Moves",
+  "pokemon-detail:games": "Games",
+  "pokemon-detail:evolutions": "Evolutions",
+  "pokemon-detail:locations": "Locations",
+  "pokemon-detail:hp": "HP",
+  "pokemon-detail:attack": "Attack",
+  "pokemon-detail:defense": "Defense",
+  "pokemon-detail:special-attack": "Sp. Atk",
+  "pokemon-detail:special-defense": "Sp. Def",
+  "pokemon-detail:speed": "Speed",
+  "game:play-again": "RESET",
+  "game:solve": "SOLVE"
+}

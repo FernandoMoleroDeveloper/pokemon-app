@@ -1,0 +1,22 @@
+.pokemon-moves {
+  text-align: left;
+
+  &__title {}
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__move {
+    flex: 1 1 50%;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-right: 10px;
+  }
+
+  &__show-more {
+    margin: 40px auto 20px auto;
+    display: block;
+  }
+}

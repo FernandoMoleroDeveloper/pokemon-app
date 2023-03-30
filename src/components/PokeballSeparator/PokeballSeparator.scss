@@ -1,0 +1,17 @@
+.pokeball-separator {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+
+  &__line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #dddddd;
+  }
+
+  &__image {
+    width: 36px;
+    height: 36px;
+    margin: 0 10px;
+  }
+}

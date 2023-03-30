@@ -1,4 +1,55 @@
+@import "../../styles/variables.scss";
+
+
 .header {
-  border: 1px solid #000;
+  background-color: $background-generic;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   padding: 20px;
+  position: relative;
+
+  &--bigger-padding,
+  &--with-location {
+    padding-bottom: 155px;
+  }
+
+  &__go-back {
+    color: #FFF;
+    font-size: 25px;
+    background: none;
+    margin: 0;
+    padding: 0;
+    width: 55px;
+    text-align: left;
+  }
+
+  &__link {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  &__logo-image {
+    max-width: 150px;
+    height: auto;
+  }
+
+  &__lang {
+    width: 55px;
+  }
+
+  &__lang-btn {
+    color: $font-color-light;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+    padding: 8px 0px 8px 8px;
+  }
+
+  &__location-icon {
+    position: absolute;
+    bottom: -50px;
+    width: 120px;
+    height: auto;
+  }
 }

@@ -1,0 +1,53 @@
+@import "../../styles/media-queries.scss";
+
+.pokemon-detail-page {
+  &__content {
+    padding-top: 0;
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: -135px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__main-info,
+  &__separator,
+  &__moves {
+    flex: 1 1 100%;
+  }
+
+  &__stats,
+  &__locations {
+    flex: 1 1 100%;
+
+    @include for-tablet-portrait-up {
+      flex: 1 1 50%;
+      padding-right: 30px;
+    }
+  }
+
+  &__evolutions,
+  &__games {
+    flex: 1 1 100%;
+
+    @include for-tablet-portrait-up {
+      flex: 1 1 50%;
+      padding-left: 30px;
+    }
+  }
+
+  // ORDERS
+  &__separator--last {
+    @include for-tablet-portrait-up {
+      order: 99;
+    }
+  }
+
+  &__moves {
+    @include for-tablet-portrait-up {
+      order: 100;
+    }
+  }
+}

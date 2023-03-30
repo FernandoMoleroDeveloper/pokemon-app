@@ -1,0 +1,13 @@
+.pokemon-games {
+  &__title {}
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    text-transform: uppercase;
+    margin: 0px 10px 10px 0px;
+  }
+}

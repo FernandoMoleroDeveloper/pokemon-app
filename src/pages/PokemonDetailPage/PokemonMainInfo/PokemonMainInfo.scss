@@ -1,0 +1,54 @@
+.pokemon-main-info {
+  text-align: center;
+
+  &__image {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    object-position: center;
+    margin: 0 60px 10px 60px;
+
+    &--hide {
+      filter: brightness(0%) contrast(80%);
+    }
+  }
+
+  &__number {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+  }
+
+  &__name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: capitalize;
+    margin: 5px 0 0 0;
+  }
+
+  &__types {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+  }
+
+  &__type {
+    margin: 5px;
+    text-transform: uppercase;
+  }
+
+  &__data {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  &__attr {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 5px;
+  }
+}

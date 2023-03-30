@@ -1,0 +1,43 @@
+.home-page {
+  background-image: url("../../assets/pokemon-background-page.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  &__content {}
+
+  &__logo {
+    width: 380px;
+    max-width: 80vw;
+    height: auto;
+    margin: 150px auto 70px auto;
+  }
+
+  &__links-container {
+    text-align: center;
+    padding-left: 15px;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto 40px auto;
+    font-size: 24px;
+    padding: 12px 60px 12px 80px;
+    min-width: 240px;
+    position: relative;
+
+    &::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      left: -8px;
+      top: -8px;
+      width: 65px;
+      height: 65px;
+      background-image: url("../../assets/pokeball.png");
+      background-size: contain;
+      background-position: center;
+      z-index: 1;
+    }
+  }
+}
